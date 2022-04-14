@@ -70,19 +70,3 @@ if __name__ == '__main__':
 		
 	else:
 		print("[+] The server is up and running on %s:%s."%(server_status))
-
-# def get_cmd_args():
-# 	parser = argparse.ArgumentParser()
-# 	parser.add_argument('module_name', help='specify the module to be called')
-# 	return parser.parse_args()
-
-
-# if __name__ == '__main__':
-# 	modules = import_modules()
-# 	args = get_cmd_args()
-# 	module = args.module_name
-
-# 	if module.lower() in modules:
-# 		print( help(modules[module]) )
-# 	else:
-# 		print("[-] Error Module does not exist.")
