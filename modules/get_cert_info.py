@@ -162,7 +162,7 @@ def get_cert_info_by_addr(hostname, port, timeout=10, strict=False):
 		context.verify_mode = ssl.VerifyMode.CERT_NONE
 
 	sock = context.wrap_socket(s, server_hostname=hostname)
-	return get_cert_info(sock.getpeercert(binary_form=True), 'der')
+	return dict(get_cert_info(sock.getpeercert(binary_form=True), 'der'))
 
 def parse_data(data, name=""):
 	
@@ -205,12 +205,3 @@ def parse_data(data, name=""):
 
 	else:
 		return str(data)
-
-
-# info = get_cert_info_by_addr('freebasics.com', 443)
-
-# info = parse_data(info, 'certificate')
-
-# import json
-
-# print( json.dumps(info, indent=2) )

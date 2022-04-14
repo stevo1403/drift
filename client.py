@@ -72,28 +72,8 @@ if __name__ == '__main__':
 
 	if prettify and result.__class__ in (dict, list, tuple):
 		try:
-			print( json.dumps(result), indent=2)
+			print( json.dumps(result, indent=2) )
 		except Exception as e:
 			print(result)
 	else:
 		print(result)
-
-# c.root.cancel_jobs()
-
-# args =  ['python', 't2.py']
-
-# j_id = c.root.start_process(args)
-
-# print(c.root.get_stdout(j_id).decode())
-
-# c.root.send_stdin(j_id, "Yin Yang", True)
-
-# print(c.root.get_stdout(j_id).decode())
-
-# c.root.send_stdin(j_id, "John Doe", True)
-
-# print(c.root.get_stdout(j_id).decode())
-
-# c.root.cancel_job(j_id)
-
-# time.sleep(3)

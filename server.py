@@ -403,9 +403,13 @@ if __name__ == "__main__":
 
 	try:
 		write_to_pid_file()
-		t = ThreadedServer(ProcessSpawnerService(), port=port, hostname=hostname)
+		t = ThreadedServer(ProcessSpawnerService(), port=port, hostname=hostname, protocol_config={'allow_public_attrs':True})
 		print("[+] Started the server on %s:%s"%(hostname, port))
 		print()
 		t.start()
+	except Exception as e:
+		print("[-] An error occurred: ", e)
+	except KeyboardInterrupt:
+		print("[-] Exiting the server")
 	finally:
 		clear_pid_file()
