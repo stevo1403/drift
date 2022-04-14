@@ -1,0 +1,202 @@
+Amazon
+{'head': 1, 'meta': 4, 'title': 1, 'link': 1, 'script': 3, 'body': 1, 'div': 22, 'i': 2, 'h4': 2, 'p': 1, 'form': 1, 'input': 3, 'img': 2, 'a': 3, 'span': 6, 'button
+': 1, 'noscript': 1}
+{'http-equiv': 2, 'content': 3, 'charset': 1, 'dir': 1, 'name': 5, 'rel': 1, 'href': 3, 'class': 33, 'style': 2, 'method': 1, 'action': 1, 'type': 4, 'value': 2, 'sr
+c': 2, 'onclick': 1, 'autocomplete': 1, 'spellcheck': 1, 'placeholder': 1, 'id': 1, 'autocapitalize': 1, 'autocorrect': 1}
+
+Form:
+	form.method
+	form.action
+	form.enctype
+	form.hidden
+
+	form.text
+	form.hash
+	
+	form.button.name
+	form.button.type
+	form.button.value
+	
+	form.input.name
+	form.input.type
+	form.input.value
+	form.input.accept
+	form.input.capture
+	form.input.dirname
+	form.input.maxlength
+	form.input.minlength
+	form.input.multiple
+	form.input.pattern
+	form.input.placeholder
+	form.input.src
+	form.input.title
+
+	form.select.name
+	form.select.multiple
+	form.select.size
+	form.select.value
+
+	form.textarea.name
+	form.textarea.type
+	form.textarea.placeholder
+
+Link:
+	link.as
+	link.crossorigin
+	link.disabled
+	link.rel
+	link.href
+	link.sizes
+	link.type
+	link.title
+
+Anchor:
+	anchor.text
+	anchor.hash
+	anchor.href
+	anchor.type
+	anchor.download
+	anchor.ping
+	anchor.rel
+
+Area:
+	area.alt
+	area.download
+	area.href
+	area.rel
+	area.ping
+
+
+Meta:
+	meta.alt
+	meta.download
+	meta.name
+	meta.content
+	meta.http_equiv
+
+
+Script:
+	script.src
+	script.type
+	script.hash
+	script.external
+
+Image:
+	image.alt
+	image.crossorigin
+	image.src
+	image.srcset
+
+Video:
+	video.poster
+	video.src
+
+	video.source.src
+	video.source.type
+	video.source.srcset
+
+	video.track.src
+	video.track.kind
+	video.track.label
+	video.track.srclang
+	
+	video.text
+	video.hash
+
+Audio:
+	audio.poster
+	audio.src
+
+	audio.source.src
+	audio.source.type
+	audio.source.srcset
+
+	audio.track.src
+	audio.track.kind
+	audio.track.label
+	audio.track.srclang
+	
+	audio.text
+	audio.hash
+
+IFrame:
+	iframe.allow
+	iframe.csp
+	iframe.name
+	iframe.sandbox
+	iframe.src
+	iframe.srcdoc
+
+
+Object:
+	object.archive
+	object.classid
+	object.codebase
+	object.codetype
+	object.data
+	object.name
+	object.type
+
+Embed:
+	embed.src
+	embed.type
+
+SVG:
+	svg.text
+	svg.hash
+	svg.width
+	svg.height
+	svg.viewbox
+	svg.version
+
+Style:
+	style.text
+	style.hash
+
+Icon:
+	icon.url
+	icon.hash
+
+Title:
+	title.text
+	title.hash
+
+Base:
+	base.url
+
+
+"""
+title.text::contains(``)
+title.text::contains('')
+title.text::contains("")
+
+title.text::startswith("")
+title.text::endswith("")
+
+title.text.contains:""
+
+"""
+
+PageLink|Name|Value
+--------------------------------------
+
+[
+  {
+    "method": "get",
+    "text": "Type the characters you
+    "hash": "746a5a2282377026271dc7e
+    "action": "/errors/validateCaptc
+    "enctype": null,
+    "hidden": null,
+    "buttons": [
+      {
+        "name": null,
+        "type": "submit",
+        "value": null
+      }
+    ],
+   }
+]
+
+
+{data.buttons.name:}

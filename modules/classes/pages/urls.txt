@@ -1,0 +1,3 @@
+http://localhost.com/hello/world
+http://localhost.net/
+hello.com/

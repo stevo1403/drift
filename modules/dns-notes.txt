@@ -1,0 +1,24 @@
+dns:
+	a:
+		value
+	aaaa:
+		value
+	cname:
+		value
+	soa:
+		value
+	mx:
+		value
+	txt:
+		value
+	ns:
+		value
+	cert:
+		value
+	dnskey:
+		value
+	ds:
+		value
+	srv:
+		value
+		

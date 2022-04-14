@@ -1,0 +1,10 @@
+rpyc
+requests
+beautifulsoup4
+tldextract
+sqlalchemy
+cryptography
+pymysql
+gevent
+grequests
+dnspython
