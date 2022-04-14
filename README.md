@@ -19,4 +19,18 @@ python server.py
 ### Usage
 ```
 python client.py -h
+
+usage: client.py [-h] [-m MODULE] [-a ATTRIBUTE] [-l] [-o OPTION] [-p]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m MODULE, --module MODULE
+                        specify the module to be called
+  -a ATTRIBUTE, --attribute ATTRIBUTE
+                        specify the attribute to be called in the module.
+  -l, --list-modules    specify that modules should be listed.
+  -o OPTION, --option OPTION
+                        specify the keywords argument for the functions.
+  -p, --prettify        specify that the results should be prettified.
+  
 ```
