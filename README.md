@@ -34,3 +34,10 @@ optional arguments:
   -p, --prettify        specify that the results should be prettified.
   
 ```
+
+# Examples
+
+#### Get the SSL Certificate for google.com and render it in JSON format
+```
+python client.py -p -m get_cert_info -o hostname=google.com -o port=443 -a get_cert_info_by_addr
+```
